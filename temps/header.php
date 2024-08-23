@@ -1,6 +1,6 @@
 <?php
 session_start();
-$url_base="https://localhost/Tuto_Dev/";
+$url_base="https://localhost/App_Web/";
 
 if(!isset($_SESSION['usuario'])){
     header("Location:".$url_base."login.php");
